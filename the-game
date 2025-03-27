@@ -1,0 +1,18 @@
+# the game of MASH
+#python
+
+import random
+
+MASH= input("What does MASH stand for?")
+user_list= MASH.split()
+job= input("What 5 jobs would you like to have?")
+list2= job.split()
+man= input("What are 5 choices of people to marry?")
+list3= man.split()
+
+house= random.choice (user_list)
+print(house)
+realjob= random.choice (list2)
+print(realjob)
+marriage= random.choice (list3)
+print(marriage)
